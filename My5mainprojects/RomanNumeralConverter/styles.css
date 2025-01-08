@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Indie+Flower&family=Dancing+Script&family=Shadows+Into+Light&family=Abril+Fatface&family=Amatic+SC&family=Cinzel+Decorative&family=Great+Vibes&family=Playfair+Display&family=Righteous&display=swap');
+*{
+  font-family:Playfair Display;
+background-color:#0C1844;
+color:FFF5E1;
+}
+body{
+  margin-top:100px;
+}
+.heading{
+  width:300px;
+  text-align:center;
+  margin:auto;
+}
+
+.box{
+  text-align:center;
+  border:1px solid;
+  margin:auto;
+  margin-top:20px;
+  width:300px;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  padding:10px;
+  background-color:0C1844;
+}
+#number,#convert-btn{
+  height:40px;
+}
+#number{
+  background-color:#FFF5E1;
+  text-align:center;
+  color:black;
+  font-size:25px;
+;}
+.hidden{
+  display:none;
+}
+.result{
+  border:2px solid white;
+  width:300px;
+  margin:auto;
+  margin-top:20px;
+  height:40px;
+  background-color:#0C1844;
+  color:white;
+  font-size: 30px;
+  padding:10px;
+  text-align:center;
+}
+.err{
+  border:2px solid white;
+  width:300px;
+  margin:auto;
+  margin-top:20px;
+  height:40px;
+  background-color:#0C1844;
+  color:white;
+  font-size: 20px;
+  padding:10px;
+  padding-bottom:20px;
+  padding-top:10px;
+  text-align:center;
+}
+#convert-btn{
+  background-color:#C80036;
+}
+#convert-btn:hover{
+  background-color:#FF6969;
+}
+#text{
+  background-color:0c1844;
+  color:FFF5E1;
+}
